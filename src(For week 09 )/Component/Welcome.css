@@ -1,0 +1,276 @@
+/* Welcome.css */
+.page-heading {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1); 
+  }
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; /* Increase margin for better spacing */
+    border-radius: 5px;
+    padding-bottom: 50px;
+    color: white;
+  }
+  .search-bar input {
+    padding: 5px;
+    margin-right: 3px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: rgb(11, 63, 11);
+  }
+  .search-bar button {
+    padding: 0;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTdNI9yZb6KnPdX67VKQDfplIcfZIJZXtCwSzPxUgzUpGPsayjZ4IPVMPyIGRTD6irlqk&usqp=CAU');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 34px;
+    height: 34px; /* Set a fixed height for the button */
+  }
+  .header {
+    background-image: url('https://media.gettyimages.com/id/1134433254/video/portuguese-pharmacy-sign.jpg?s=640x640&k=20&c=FHCpyxbbm1NLHZUEeJFMGqNdqMclZamPJ4C1hPPcVkU=');
+    background-size: cover; /* Ensure the image covers the entire header */
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 30px;
+  }
+  /* ... (existing styles) ... */
+  
+  .carousel-item img {
+    max-height: 300px; /* Set your desired height */
+    width: 100%; /* Set the width to 100% to fill the container */
+    margin-left: 5px;
+    margin-right: 100px;
+    padding-top: 50px;
+  }
+  
+  /* ... (existing styles) ... */
+  
+  
+  /* ... (existing styles) */
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image-wrapper {
+    margin: 5px;
+    text-align: center;
+  }
+  .image-container img {
+    max-height: 300px;
+    width: 100%; /* Adjust the width of the images as needed */
+    margin-left: 5px;
+    margin-right: 100px;
+    padding-top: 50px;
+  }
+/* ... (existing styles) ... */
+
+/* Today's Offers styles */
+.shop-category.today-offers {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 115px; /* Add padding to align with the style of Shop By Brands or Shop By Category */
+  }
+  
+  
+  
+  /* ... (existing styles) ... */
+  
+  /* ... (existing styles) ... */
+  .additional-text {
+    margin-top: 500px;
+    font-weight: normal;
+    align-content: left;
+    padding-left: -100px;
+
+  }
+  /* Adjust the size of the carousel images */
+  .carousel-item img {
+    max-height: 300px; /* Set your desired height */
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 100px;
+    padding-top: 50px;
+  
+  
+  }
+  /* Additional styles for responsiveness */
+  @media (max-width: 768px) {
+    .search-bar input, .search-bar button {
+      width: 100%; /* Make the search bar full-width on smaller screens */
+      margin-left: 100px; /* Remove the margin between input and button on smaller screens */
+    }
+  }
+  /*.shop-category {
+    padding-top: 100px;
+    padding-bottom: -100px;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  } */
+  
+  /* Add these styles to your existing Welcome.css or create a new CSS file */
+  
+  /* ... (existing styles) ... */
+  
+  /* Shop By Category styles */
+  .shop-category {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: static;
+    justify-content: 0;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    margin: 10px;
+    text-align: left;
+  }
+  
+  .image-wrapper img {
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    border: 2px solid #ddd; /* Add a border around the images */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .additional-text {
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* ... (rest of the styles) ... */
+  
+  
+  /*.shop-brands {
+    padding-top: 100px;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  */
+  /* ... (existing styles) ... 
+  
+  .shop-brands {
+    padding-top: 30px;
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .shop-brands .image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .shop-brands .image-wrapper {
+    text-align: center;
+  }
+  
+  .shop-brands img {
+    width: auto;
+    max-width: 80px; // Adjust the maximum width of the images 
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+  }*/
+  
+  /* ... (existing styles) ... */
+
+  /* ... (existing styles) ... */
+
+/* Shop By Brands styles */
+.shop-brands {
+    padding-top: 30px;
+    text-align: right;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .shop-brands .image-container {
+    display: flex;
+    justify-content: 0;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .shop-brands .image-wrapper {
+    text-align: center;
+    flex: 0%;
+  }
+  
+  /* Set a fixed height and width for the images in the "Shop By Brands" segment */
+  .shop-brands img {
+    width: auto;
+    max-width: 40px; /* Adjust the maximum width of the images */
+    height: 40px; /* Set a fixed height for the images */
+    border: 2px solid #ddd;
+    border-radius: 0px;
+    margin: 0px;
+  }
+  
+  /* ... (existing styles) ... */
+  
+  
+  .center-align-container {
+    text-align: left;
+    background-color: green; /* Set the background color to royal blue */
+    color: whitesmoke; /* Set text color to white */
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-top:50px;
+    margin-bottom: 0px; /* Adjust the margin as needed */
+    border-radius: 20px;
+  }
+  /* ... (existing styles) */
+  /* Additional styles for responsiveness */
+  @media (max-width: 750px) {
+    .center-align-container {
+      margin: 10px; /* Adjust margins for smaller screens */
+    }
+  }
+  /* ... (existing styles) */
+  
+  /* Footer styles */
+  .footer {
+    background-color: darkgreen;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+  }
